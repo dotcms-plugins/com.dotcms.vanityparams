@@ -85,11 +85,15 @@ public class VanityUrlInterceptor implements WebInterceptor {
                 //If the handler already resolved the requested URI we stop the processing here
                 if (vanityUrlResult.isResolved()) {
                     return result;
-                
-                result = new Result.Builder().next()
+                }
+  
+
+         
+                result = new Result.Builder()
+                                .next()
                                 .wrap(new VanityUrlRequestWrapper(request, vanityUrlResult))
                                .build();
-                
+             
            }
 
         }

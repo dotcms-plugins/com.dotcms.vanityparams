@@ -25,7 +25,7 @@ import com.google.common.collect.ImmutableMap;
  * request
  *
  */
-class VanityUrlRequestWrapper extends HttpServletRequestWrapper {
+public class VanityUrlRequestWrapper extends HttpServletRequestWrapper {
     
     final Map<String, String[]> queryParamMap;
     final String newQueryString;

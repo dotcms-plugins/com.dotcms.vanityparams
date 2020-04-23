@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS - dotCMS - Vanity Url Parameters fragment
+Bundle-SymbolicName: com.dotcms.vanityparams.fragment
+Export-Package: com.dotcms.filters.interceptor;version=0,com.dotcms.va
+ nityurl.handler;version=0,com.dotcms.vanityurl.model;version=0,com.do
+ tmarketing.beans;version=0,com.dotmarketing.business.web;version=0,co
+ m.dotmarketing.filters;version=0,com.dotmarketing.osgi;version=0,com.
+ dotmarketing.portlets.languagesmanager.model;version=0,com.dotmarketi
+ ng.util;version=0,com.google.common.collect;version=0,com.liferay.por
+ tal.model;version=0,javax.servlet;version=0,javax.servlet.http;versio
+ n=0,org.apache.http;version=0,org.apache.http.client.utils;version=0,
+ org.osgi.framework;version=0
+Bundle-Name: dotCMS - Vanity Url Parameters fragment
+Bundle-Version: 0.2
+Bundle-ManifestVersion: 2
+Bundle-Vendor: dotCMS
+Bundle-DocURL: https://dotcms.com/
+Fragment-Host: system.bundle; extension:=framework
+

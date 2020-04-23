@@ -1,0 +1,6 @@
+#Thu Apr 23 12:34:11 EDT 2020
+Bundle-Vendor=dotCMS
+Bundle-Activator=com.dotcms.vanityparams.Activator
+Bundle-Description=dotCMS - Vanity Url Parameters
+Import-Package=*;version\=0
+Bundle-DocURL=https\://dotcms.com/

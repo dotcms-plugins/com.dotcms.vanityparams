@@ -1,4 +1,9 @@
-# README
+# This functionality has been incorporated into the dotCMS core as of v5.3
+
+
+
+
+### README
 
 This OSGI plugin adds a WebInterceptor that resolves a vanityURL for a request - with the additional benifit of adding the query string specified in the vanityUrl to the request.  This functionality will be the default as of dotCMS 5.3+
 
